@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner
+        android:id="@+id/shangpin_banner"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"></com.youth.banner.Banner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/shangpin_text01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+
+            android:id="@+id/shangpin_text02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:id="@+id/shangpin_text03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/new_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="QQ登录" />
+
+        <Button
+            android:id="@+id/new_login_close"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出登录" />
+
+        <Button
+            android:id="@+id/new_login_shareqq"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QQ分享" />
+
+        <Button
+            android:id="@+id/new_login_shareqzone"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="空间分享" />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+
+        android:id="@+id/shangpin_jiarugouwuche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:text="加入购物车"
+        android:textColor="@color/colorAccent" />
+
+
+</LinearLayout>
